@@ -1,0 +1,114 @@
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#0b0f1a;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#e6f1ff;
+}
+/* main container */
+.container{
+  width:700px;
+  padding:40px;
+  text-align:center;
+  background:#111827;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.8);
+}
+/* title */
+.title{
+  color:#3b82f6;
+  margin-bottom:10px;
+}
+/* liked counter */
+.like-count{
+  color:#93c5fd;
+  margin-bottom:20px;
+  font-size:18px;
+}
+/* primary button (blue) */
+.btn{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:10px 18px;
+  font-size:16px;
+  border-radius:6px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+
+.btn:hover{
+  background:#3b82f6;
+}
+
+.btn:disabled{
+  background:#1e3a8a;
+  cursor:not-allowed;
+}
+
+/* loading text */
+.loading{
+  margin-top:10px;
+  color:#93c5fd;
+}
+
+/* quote card */
+.quote-card{
+  margin-top:25px;
+  padding:25px;
+  background:#0f172a;
+  border-radius:10px;
+  border:1px solid #1e40af;
+}
+
+/* quote text */
+.quote-text{
+  font-size:20px;
+  color:#e6f1ff;
+}
+
+/* author */
+.author{
+  margin-top:10px;
+  color:#93c5fd;
+}
+
+/* like button (red accent) */
+.like-btn{
+  margin-top:15px;
+  background:#dc2626;
+  border:none;
+  padding:8px 16px;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.like-btn:hover{
+  background:#ef4444;
+}
+
+/* divider */
+.divider{
+  margin:35px 0;
+  border-color:#1e3a8a;
+}
+
+/* liked quote */
+.liked-quote{
+  background:#0f172a;
+  padding:14px;
+  margin-bottom:10px;
+  border-radius:8px;
+  border-left:4px solid #dc2626;
+  text-align:left;
+}
+/* emp txt */
+.empty{
+  color:#9ca3af;
+}
